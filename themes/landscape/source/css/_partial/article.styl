@@ -1,16 +1,17 @@
-.article
-  margin: block-margin 0
-
 .article-inner
   @extend $block
   overflow: hidden
 
 .article-meta
+  margin: 0.5rem 0 0 0
   clearfix()
 
 .article-date
   @extend $block-caption
   float: left
+  padding: 0.5rem
+  background: #eee
+  margin: 0 0.5rem 0 0
 
 .article-category
   float: left
@@ -26,7 +27,7 @@
   margin: 0 12px 1em
 
 .article-header
-  padding: article-padding article-padding 0
+  padding: article-padding article-padding 0 0
 
 .article-title
   text-decoration: none
@@ -42,7 +43,8 @@
   @extend $base-style
   clearfix()
   color: color-default
-  padding: 0 article-padding
+  padding: 1rem 0 1rem 0rem
+  font-size: 13px
   p, table
     line-height: line-height
     margin: line-height 0

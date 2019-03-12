@@ -1,24 +1,20 @@
 #sidebar
-  @media mq-normal
-    column(sidebar-column)
+  margin-top: 2rem
 
 .widget-wrap
   margin: block-margin 0
 
-.widget-title
-  @extend $block-caption
-
 .widget
   color: color-sidebar-text
-  text-shadow: 0 1px #fff
-  background: color-widget-background
-  box-shadow: 0 -1px 4px color-widget-border inset
-  border: 1px solid color-widget-border
-  padding: 15px
+  padding-top: 0.5rem
   border-radius: 3px
   a
-    color: color-link
+    background: #e6e6e6
+    display: inline-block
+    padding: 0.5rem
+    margin: 0 0.5rem 0.5rem 0
     text-decoration: none
+    font-weight: bold
     &:hover
       text-decoration: underline
   ul, ol, dl
